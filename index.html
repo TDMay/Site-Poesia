@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="./src/style.css" rel="stylesheet" type="text/css" />
+  <title>Dia da Poesia</title>
+</head>
+
+<body>
+  <header style="background-image:url(./src/images/camilo.jpg)">
+    <div class="container">
+      <nav>
+        <a href="index.html"><img src="./src/images/logo.png" alt="logo" class="logo"></a>
+        <ul class="ul">
+          <a href="index.html">Home</a>
+          <a href="sorteio.html">Game</a>
+          <a href="sobre.html" class="btn">Sobre</a>
+          <div class="close-icon" onclick="closeMenu()">
+            <i class="fa fa-times-circle" aria-hidden="true"></i>
+          </div>
+        </ul>
+        <div class="menu-icon" onclick="openMenu()">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+      </nav>
+      <section class="banner">
+        <div class="banner-text">
+          <h1>Dia da Poesia</h1>
+          <p><b>Camilo Castelo Branco</b></p>
+          <a href="sorteio.html" class="btn animate-btn">Sorteio de Poemas</a>
+        </div>
+      </section>
+    </div>
+  </header>
+  <section class="faca-mais">
+    <div class="container">
+      <div class="faca-mais-text">
+        <h2>Biografia</h2>
+        <p>
+          <b>Camilo Castelo Branco</b> nasceu em Lisboa em 1825, filho de <b>Manuel Joaquim Botelho Castelo Branco</b> e <b>Jacinta Rosa do Espírito Santo Ferreira</b>. Órfão de mãe aos 1 ano e de pai aos 10 anos, foi criado por parentes em Vila Real. Sua formação incluiu leituras clássicas e contato com a vida ao ar livre.
+
+          Aos 16 anos, casou-se com <b>Joaquina Pereira de França</b>, mas o casamento não durou muito. Ingressou na universidade, abandonando-a posteriormente, envolvendo-se em polêmicas jornalísticas e romances tumultuosos. Em 1850, participou de uma controvérsia entre <b>Alexandre Herculano</b> e o <b>Clero</b>.
+
+          Um episódio notável foi seu envolvimento com <b>Ana Augusta Vieira Plácido</b>, que resultou em um escândalo e prisão por adultério. Após ser absolvido, viveu com Ana até sua morte. Enfrentou dificuldades financeiras e problemas de saúde, incluindo problemas visuais graves, derivados de neurosífilis.
+
+          Faleceu em 1890, cometendo suicídio devido a seu estado de cegueira e desespero. Sua obra literária é vasta e inclui romances como <b>"Amor de Perdição"</b> e <b>"Mistérios de Lisboa"</b>, além de peças de teatro, crônicas e artigos de opinião.
+        </p>
+        <a href="sobre.html" class="btn animate-btn">Ver Biografia Completa</a>
+      </div>
+      <div class="faca-mais-img">
+      <img src="src/images/camilo2.png" alt="">
+      </div>
+    </div>
+  </section>
+  <section class="obras">
+    <div class="container">
+      <h3>Algumas obras do Camilo Castelo Branco</h3>
+      <p>Obras mais famosas desse grande escritor</p>
+      <div class="cards">
+        <div class="card-item">
+          <img src="src/images/amordeperdicao.jpg" alt="Livro Amor de Perdição do Camilo Castelo Branco">
+          <a class="nome-livro" href="https://a.co/d/7T97Akz" target="_blank">Amor de Perdição</a>
+          <div class="estrelas">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="card-item" >
+          <img src="src/images/cabeçaestomago.jpg" alt="Livro Coração, Cabeça e Estômago do Camilo Castelo Branco">
+          <a class="nome-livro" href="https://a.co/d/bA5u027" target="_blank">Coração, Cabeça e Estômago</a>
+          <div class="estrelas">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="card-item">
+          <img src="src/images/quedaanjo.jpg" alt="Livro A Queda Dum Anjo do Camilo Castelo Branco">
+          <a class="nome-livro" href="https://a.co/d/euDGdrE" target="_blank">A Queda Dum Anjo</a>
+          <div class="estrelas">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <section class="faca-mais">
+    <div class="container">
+      <div class="faca-mais-img">
+        <img src="src/images/camilo3.png" alt="">
+      </div>
+      <div class="faca-mais-text">
+        <h2>Seletor de Poemas!</h2>
+          <p>
+            <b>Conheça mais sobre o escritor Camilo Castelo Branco lendo um de seus poemas, nosso site irá indicar uma de suas melhores obras para você.</b>
+          </p>
+        <a href="sorteio.html" class="btn animate-btn">Sortei um Poema</a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="links">
+        <a href="https://github.com/TDMay" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i></i></a>
+        <a href="https://www.instagram.com/bogea.may/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="#" target="_blank">  <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+        <a href="#" target="_blank">  <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+        <p>Desenvolvido por Maykon Bogéa e Celso Ricardo</p>
+      </div>
+    </div>
+  </footer>
+  <script src="./src/script.js""></script>
+</body>
+
+</html>

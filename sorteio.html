@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="src/style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>sorteio</title>
+</head>
+<body>
+  <header class="headerSorteio">
+    <div class="container">
+        <nav>
+          <a href="index.html"><img src="./src/images/logo.png" alt="logo" class="logo"></a>
+          <ul class="ul">
+            <a href="index.html">Home</a>
+            <a href="sorteio.html">Game</a>
+            <a href="sobre.html" class="btn">Sobre</a>
+            <div class="close-icon" onclick="closeMenu()">
+              <i class="fa fa-times-circle" aria-hidden="true"></i>
+            </div>
+          </ul>
+          <div class="menu-icon" onclick="openMenu()">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </div>
+        </nav>
+      </div>
+    <div class="container">
+
+      <div class="sorteioExterno"> 
+        <div class="sorteio">
+          <div class="elementosSorteio">
+              <h1 id="nomePoema"></h1>
+              <label class="poema" id="poema">  </label>
+            </div>
+                <button class="btn-poema" onclick="girarPoema()">Girar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="links">
+        <a href="https://github.com/TDMay" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i></i></a>
+        <a href="https://www.instagram.com/bogea.may/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="#" target="_blank">  <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+        <a href="#" target="_blank">  <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+        <p>Desenvolvido por Maykon Bogéa e Celso Ricardo</p>
+      </div>
+    </div>
+  </footer>
+  <script src="src/script.js"></script>
+</body>
+</html>
